@@ -1,0 +1,37 @@
+{
+    "personalInfo": {
+      "name": "Raman Singh",
+      "location": "Bangalore, IN",
+      "email": "ramansinghdsat@gmail.com",
+      "phone": "+91 8104771721",
+      "linkedin": "https://linkedin.com/in/raman-79",
+      "github": "https://github.com/Raman-79"
+    },
+    "roadmaps": {   
+        "frontend": {
+            "name": "Frontend Development",
+            "nodes": [
+              { "name": "React", "link": "/react-projects" },
+              { "name": "Vue.js", "link": "/vue-projects" },
+              { "name": "Angular", "link": "/angular-projects" }
+            ]
+          },
+          "backend": {
+            "name": "Backend Development",
+            "nodes": [
+              { "name": "Node.js", "link": "/nodejs-projects" },
+              { "name": "Express.js", "link": "/express-projects" },
+              { "name": "Django", "link": "/django-projects" }
+            ]
+          },
+          "blockchain": {
+            "name": "Blockchain Development",
+            "nodes": [
+              { "name": "Ethereum", "link": "/ethereum-projects" },
+              { "name": "Solidity", "link": "/solidity-projects" },
+              { "name": "Web3.js", "link": "/web3-projects" }
+            ]
+          }
+    }
+  }
+  
