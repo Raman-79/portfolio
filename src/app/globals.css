@@ -16,6 +16,13 @@
   }
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  /* You may need to provide additional font formats for cross-browser compatibility */
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -31,6 +38,19 @@ body {
   li {
     margin-bottom: 5px;
   }
+  .gradient-background {
+    /* Linear gradient with 75% black starting from the left */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 75%),
+                radial-gradient(circle at 100% 50%, #00FF00 50%, #e8199f 70%);
+    /* Background size and position */
+    background-size: 100% 0%, 50% 50%;
+    background-position: left top, right bottom;
+    /* Additional styles */
+    /* Ensure the background covers the entire element */
+    background-repeat: no-repeat;
+    /* Add height to the element */
+    height: 100vh; /* Adjust as needed */
+  }  
 }
 
 

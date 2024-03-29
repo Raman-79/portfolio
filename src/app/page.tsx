@@ -5,10 +5,12 @@ import Header from './components/Header';
 const {name} = jsonData.personalInfo;
 const Home: React.FC = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10 gradient-background'>
       <Header/>
-      <h1>{name}</h1>
       <div>
+      <h1>{name}</h1>
+      </div>
+      {/* <div>
         <Link href="/frontend">Frontend Roadmap</Link>
       </div>
       <div>
@@ -16,7 +18,7 @@ const Home: React.FC = () => {
       </div>
       <div>
         <Link href="/blockchain">Blockchain Roadmap</Link>
-      </div>
+      </div> */}
     </div>
   );
 };
