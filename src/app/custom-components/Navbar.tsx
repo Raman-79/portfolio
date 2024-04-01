@@ -15,15 +15,15 @@ const Navbar = () => {
             <div className="text-white font-semibold text-lg cursor-pointer">My Portfolio</div>
           </Link>
         </div>
-        <div className="flex space-x-4">
+        <div className="flex space-x-5 justify-center">
           <Link href={github}>
-            <div className="text-white cursor-pointer"> <FaGithub /> GitHub</div>
+            <div className="text-white cursor-pointer flex items-center"> <FaGithub /> <span className="ml-2">GitHub</span></div>
           </Link>
           <Link href={linkedin}>
-            <div className="text-white cursor-pointer"><FaLinkedin /> LinkedIn</div>
+            <div className="text-white cursor-pointer flex items-center"><FaLinkedin /> <span className="ml-2">LinkedIn</span></div>
           </Link>
           <Link href={resume}>
-            <div className="text-white cursor-pointer"> <IoDocument /> Resume</div>
+            <div className="text-white cursor-pointer flex items-center"> <IoDocument /> <span className="ml-2">Resume</span></div>
           </Link>
         </div>
       </div>
