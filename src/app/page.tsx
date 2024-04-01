@@ -7,7 +7,7 @@ const name = jsonData.personalInfo.name;
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-gray-900 text-white min-h-[90vh] h-auto flex flex-col justify-center items-center pt-6 sm:px-4" style={{fontFamily: 'Roboto, sans-serif'}}>
+    <div className=" text-white min-h-[90vh] h-auto flex flex-col justify-center items-center pt-6 sm:px-4" style={{fontFamily: 'Roboto, sans-serif'}}>
       <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
         Hi! I'm {name} <span className="inline-block">👨‍💻</span> 
       </h1>

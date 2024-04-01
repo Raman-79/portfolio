@@ -1,37 +1,98 @@
-{
-  "personalInfo": {
-    "name": "Raman Singh",
-    "location": "Bangalore, IN",
-    "email": "ramansinghdsat@gmail.com",
-    "phone": "+91 8104771721",
-    "linkedin": "https://linkedin.com/in/raman-79",
-    "github": "https://github.com/Raman-79",
-    "resume":"https://drive.google.com/file/d/1nZBuZhlJW2ADq8ddjtu6kRWRhPG1RXjR/view?usp=sharing"
-  },
+{ "personalInfo": {
+  "name": "Raman Singh",
+  "location": "Bangalore, IN",
+  "email": "ramansinghdsat@gmail.com",
+  "phone": "+91 8104771721",
+  "linkedin": "https://linkedin.com/in/raman-79",
+  "github": "https://github.com/Raman-79",
+  "resume": "https://drive.google.com/file/d/1nZBuZhlJW2ADq8ddjtu6kRWRhPG1RXjR/view?usp=sharing"
+},
   "roadmaps": {
     "frontend": {
       "name": "Frontend Development",
-      "nodes": [
-        { "name": "React", "link": "/react-projects" },
-        { "name": "Vue.js", "link": "/vue-projects" },
-        { "name": "Angular", "link": "/angular-projects" }
-      ]
+      "technologies": {
+        "reactjs": {
+          "name": "React.js Development",
+          "steps": [
+            {
+              "title": "Basics",
+              "description": "Master the fundamentals of React.js, including JSX syntax, components, props, state, and lifecycle methods."
+            },
+            {
+              "title": "State Management",
+              "description": "Explore different state management solutions like React Context API, Redux, or MobX."
+            },
+            {
+              "title": "Advanced Topics",
+              "description": "Dive deeper into advanced topics like routing, hooks, performance optimization, and server-side rendering in React.js."
+            },
+            {
+              "title": "Real-world Projects",
+              "description": "Apply your knowledge to develop complex projects that showcase your expertise and problem-solving abilities."
+            }
+          ]
+        }
+      }
     },
     "backend": {
       "name": "Backend Development",
-      "nodes": [
-        { "name": "Node.js", "link": "/nodejs-projects" },
-        { "name": "Express.js", "link": "/express-projects" },
-        { "name": "Django", "link": "/django-projects" }
-      ]
+      "technologies": {
+        "nodejs": {
+          "name": "Node.js Development",
+          "steps": [
+            {
+              "title": "Learn Basics",
+              "description": "Start with the basics of Node.js, including asynchronous programming and modules."
+            },
+            {
+              "title": "Build Simple Servers",
+              "description": "Create basic Node.js servers to understand routing, middleware, and HTTP requests."
+            },
+            {
+              "title": "Explore Express.js",
+              "description": "Learn Express.js framework for building web applications and RESTful APIs."
+            },
+            {
+              "title": "Database Integration",
+              "description": "Integrate databases like MongoDB or MySQL with Node.js using Mongoose or Sequelize."
+            },
+            {
+              "title": "Develop Scalable Applications",
+              "description": "Apply best practices to develop scalable Node.js applications suitable for production environments."
+            }
+          ]
+        }
+      }
     },
     "blockchain": {
       "name": "Blockchain Development",
-      "nodes": [
-        { "name": "Ethereum", "link": "/ethereum-projects" },
-        { "name": "Solidity", "link": "/solidity-projects" },
-        { "name": "Web3.js", "link": "/web3-projects" }
-      ]
+      "technologies": {
+        "ethereum": {
+          "name": "Ethereum Development",
+          "steps": [
+            {
+              "title": "Understand Blockchain Basics",
+              "description": "Learn the fundamentals of blockchain technology and its applications."
+            },
+            {
+              "title": "Setup Ethereum Development Environment",
+              "description": "Install Ethereum clients like Geth or Parity and set up a local development environment."
+            },
+            {
+              "title": "Smart Contract Development",
+              "description": "Learn Solidity programming language for writing smart contracts on the Ethereum platform."
+            },
+            {
+              "title": "Decentralized Applications (DApps)",
+              "description": "Develop decentralized applications (DApps) using Ethereum and web3.js library."
+            },
+            {
+              "title": "Testing and Deployment",
+              "description": "Test and deploy smart contracts and DApps on the Ethereum blockchain."
+            }
+          ]
+        }
+      }
     }
   }
 }
